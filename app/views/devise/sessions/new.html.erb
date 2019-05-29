@@ -7,7 +7,8 @@
       <div class="signin-content">
         <div class="signin-image">
           <figure><%= image_tag ('/assets/signin-image.jpeg') %></figure>
-          <a href="#" class="signup-image-link">Create an account</a>
+
+          <%= link_to 'Create an account', new_user_registration_path, class: 'signup-image-link' %>
         </div>
         <div class="signin-form">
           <h2 class="form-title">Sign In</h2>
