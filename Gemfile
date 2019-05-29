@@ -66,3 +66,4 @@ gem 'font-awesome-sass', '~> 5.8.1'
 gem 'jquery-validation-rails'
 gem 'will_paginate', '~> 3.1.0'
 gem 'devise'
+gem "paperclip", "~> 6.0.0"
